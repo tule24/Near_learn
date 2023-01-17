@@ -1,0 +1,19 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "license": "(MIT AND Apache-2.0)",
+  "scripts": {
+    "start": "cd frontend && yarn run start",
+    "deploy": "cd contract && ./deploy.sh",
+    "build": "yarn run build:contract && yarn run build:web",
+    "build:web": "cd frontend && yarn run build",
+    "build:contract": "cd contract && ./build.sh",
+    "test": "yarn run test:unit && yarn run test:integration",
+    "test:unit": "cd contract && cargo test",
+    "test:integration": "cd integration-tests && cargo run --example integration-tests \"../contract/target/wasm32-unknown-unknown/release/hello_near.wasm\"",
+    "postinstall": "cd frontend && yarn install && cd .. && echo rs tests && echo rs contract"
+  },
+  "devDependencies": {
+    "near-cli": "^3.3.0"
+  }
+}
