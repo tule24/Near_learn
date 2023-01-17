@@ -1,8 +1,8 @@
 # ALL OF NEAR
-**Smart contract:** Rust  
-**Unit test:** Rust  
-**Ingration test:** Rust/TS  
-**Front-end:** React, Next  
+* Smart contract: ***Rust*** 
+* Unit test: ***Rust*** 
+* Ingration test: ***Rust, TS***  
+* Front-end: ***React, Next***  
 ### Basic Example
 * Hello Near  
 * Counter
