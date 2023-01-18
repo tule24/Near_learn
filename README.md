@@ -12,3 +12,4 @@
 * Coin flip
 ### Advance Example
 * Escrow contract
+* XCC Advanced
