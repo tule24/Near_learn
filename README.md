@@ -13,3 +13,4 @@
 ### Advance Example
 * Escrow contract
 * XCC Advanced
+* Basic Update Contract
