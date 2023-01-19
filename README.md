@@ -15,4 +15,6 @@
 * XCC Advanced
 * Basic Update Contract
 * Version Update Contract
+* Self Update Contract
+
 
