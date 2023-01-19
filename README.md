@@ -14,3 +14,5 @@
 * Escrow contract
 * XCC Advanced
 * Basic Update Contract
+* Version Update Contract
+
